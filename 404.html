@@ -1,0 +1,89 @@
+<!DOCTYPE html5>
+<html>
+	<head>
+		<link rel="icon" 
+		      type="image/png" 
+		      href="favicon.png">
+		<style>
+			html, body {
+				background-color: #445455;
+				color: #aababb;
+			}
+			a {
+				color: #d45455;
+			}
+			#left .content {
+				margin-left: 2em;
+			}
+			.content {
+				font-size: 1.5em;
+				line-height: 1.05em;
+			}
+			#main-content {
+				padding-top: 1em;
+				text-align: center;
+			}
+			#right, #source-code {
+				tab-size: 2em;
+				overflow-x: hidden;
+			}
+			#left, #right {
+				float: left; width: 50%;
+			}
+			.content img {
+				max-width: 90%;
+			}
+			.mini {
+				font-size: 0.5em;
+				font-family: sans-serif;
+			}
+		</style>
+		<title>droqen.com - 404</title>
+	</head>
+	<body>
+		<div id="left">
+			<div id="main-content" class="content">
+				<img src="20,04,img/u.gif">
+				<h3>
+					stairs, alleyways, <nobr>and broken links.</nobr><br>
+					404 errors in <nobr>a dead city.</nobr><br>
+					looking for an old blog post?<br>
+				</h3>
+
+				<div class='mini'>on may 22, 2022, my wordpress installation started throwing a fit.<br/>
+				i couldn't fix it and wasn't using wordpress much at that point anyway,<br/>
+				so i replaced the cumbersome website full of dependencies<br/>
+				with a static page. please visit my singular page instead.</div>>
+				<br/>
+
+				<a href="https://www.droqen.com/">droqen.com</a><br/>
+
+				<br/>
+
+				<div class='mini'>p.s. some old blog posts are easily retrievable by me,<br/>
+				but not publicly accessible. please don't hesitate to reach out.</div>
+				<br/>
+				<br/>
+			</div>
+		</div>
+		<div id="right">
+			<pre><code id="source-code"></code></pre>
+		</div>
+		<script>
+			var source_code = document.documentElement.outerHTML;
+
+			// beautify the source_code a little bit before printing, b/c the tags come out weird
+			source_code = source_code.replace(
+				"<html><head>",
+				"<html>\n\t<head>");
+			source_code = source_code.replace(
+				"<\/script></body></html>",
+				"<\/script>\n\t</body>\n</html>");
+			console.log(source_code);
+
+			document.getElementById("source-code").appendChild(
+				document.createTextNode(source_code)
+			);
+		</script>
+	</body>
+</html>
