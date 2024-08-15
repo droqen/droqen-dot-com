@@ -12,4 +12,23 @@ listen, i hate being ignored, ok. i want to be every complex, multifaceted droqe
 
 but sometimes, sometimes, people have a finite and mortal capacity to receive information about your identity, and you have to pick your battles.
 
-## who am i?
+## who am i? -- consultant, artist
+this branch i'm on is for exploring a certain facet of my self that is a type of consultant.
+
+what i have written in my notebook:
+
+- ARTISTIC / EXPRESSIVE / CREATIVE
+
+- PROCESS + DESIGN
+
+- CONSULTANT / COACH / MENTOR / ~~THERAPIST~~🔒
+
+here are some thoughts:
+
+- i like to talk to people about their creative projects
+
+- "you deserve to perceive yourself as a creative/expressive individual"
+
+- talking about happiness in the creative process; *this is something you make for yourself*
+
+- why do you make [games]?

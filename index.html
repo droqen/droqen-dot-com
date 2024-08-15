@@ -2,117 +2,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>alexanders [sic] website</title>
+		<title>test website</title>
 		<link rel="icon" type="image/x-icon" href="23,07,img/droqqoon_512_green.png">
-		<script type="text/javascript">
-			document.addEventListener("DOMContentLoaded", function(event) {
-				var _span = document.getElementById('email');
-				var _addyContent = document.createTextNode("hello@dro" + "qen.com");
-				_span.appendChild(_addyContent);
-
-				console.log(new Date().getHours().toString() + ":" + new Date().getMinutes().toString());
-
-				updateSunMark();
-				setInterval(updateSunMark, 1000);
-			});
-
-			function updateSunMark() { document.getElementById("sun-mark").style.transform = "rotate("+getSunAngle().toString()+"deg)"; }
-			function getSunAngle() {
-				let d = new Date();
-				let dayProgress = (d.getHours() + d.getMinutes() / 60.0) / 24.0;
-				return (360 * dayProgress) - 180;
-			}
-		</script>
 		<style type="text/css">
-			html,body {
-				font-family: Georgia, serif;
-				overflow-x: hidden;
-				max-width: 100vw;
-			}
-			a.hyper {
-				/* border:1px solid #ffeeff; */
-				background-color: #eeeeee;
-				padding: 1px 5px 1px 5px;
-				border-radius: 4px;
-				text-decoration: none;
-			}
-			a.hyper:hover { background-color: #ffffff;  }
-			p {
-				line-height: 1.4em;
-				text-indent: 1em;
-			}
-		</style>
 
-		<style type="text/css">
-			div.faux-card {
-				display:block; max-width:350px; background: #e3e3e3; border-radius: 6px;
-				font-family: Helvetica Neue,Helvetica,Arial,sans-serif; font-size: 15px;
-			}
-			div.faux-card a {
-				display:block; padding: 8px;
-				text-decoration: none;
-				color: #000;
-			}
-			div.faux-card a span {
-				display:block; background: #cdcdcd; border-radius: 3px;
-			}
-			div.faux-card a span.avi-name-wrapper {
-				display:inline-block; margin: 3px 0 6px 6px;
-			}
-			div.faux-card span.kinopio-avi {
-				display:inline-block; background: rgb(211, 69, 68);
-				border-radius: 6px; width:17px; height: 17px; margin:0; vertical-align: -3px;
-			}
-			div.faux-card span.card-name {
-				display:inline-block; line-height: 1.2; margin:0;
-			}
-			div.faux-card:hover {
-				animation: jiggle .8s infinite ease-out forwards;
-				box-shadow: 4px 4px rgba(0,0,0,0.5);
-			}
-
-			@keyframes jiggle {
-				0%	{ -webkit-transform: rotate( 0deg); transform: rotate( 0) }
-				25%	{ -webkit-transform: rotate(-1.5deg); transform: rotate(-1.5deg) }
-				50%	{ -webkit-transform: rotate( 1.5deg); transform: rotate( 1.5deg) }
-				75%	{ -webkit-transform: rotate(-1.5deg); transform: rotate(-1.5deg) }
-				to		{ -webkit-transform: rotate( 0deg); transform: rotate(0) }
-			}
 		</style>
 	</head>
 	<body>
-		<img src="23,07,img/half-sun.png" style="position: absolute; left:50%; bottom:50%; margin-left:-80px; margin-top:-80px; pointer-events: none;"/>
-		<img id="sun-mark" src="23,07,img/half-sun-mark.png" style="position: absolute; left:50%; bottom:50%; margin-left:-80px; margin-top:-80px; pointer-events: none; transform: rotate(145deg);"/>
-		<img src="23,07,img/hapy lookin up.png" style="position: absolute; left:0; bottom: 0; pointer-events: none;"/>
-		<!-- <img src="bleh pair.png" style="position: absolute; left:0; bottom: 0;"/> -->
-		<img src="23,07,img/bag lookin down.png" style="position: absolute; right:0; top: 0; pointer-events: none;"/>
-		<h1 style="position: absolute; top:10vh; left: 200px; font-size: 20px;">droqen<br/>or,<br/>Alexander Martin</h1>
-		<div style="position: absolute; top:50vh; left:50vw; right:5vw; max-width: 450px; z-index: 1; background-color: #fff;">
-			<p>
-				I've made hundreds of games! Some good ones are
-				<nobr><a class="hyper" href="http://www.starseedpilgrim.com/">Starseed Pilgrim,</a></nobr>
-				<nobr><a class="hyper" href="https://droqen.itch.io/yrkkeys-paradise">YRKKEY'S PARADISE,</a></nobr>
-				<nobr><a class="hyper" href="https://droqen.itch.io/cruel-world">Cruel World,</a></nobr>
-				and <nobr><a class="hyper" href="https://droqen.itch.io/awake">awake.</a></nobr>
-			</p>
-			<p>
-				You can contact me about game-making at <span id="email"></span>.
-			</p>
-			<p>
-				To see what else I'm up to, please visit my kinopio space:
-			</p>
-			<div class="faux-card">
-				<a href="https://kinopio.club/droqen-entrance-c6rgUnlHCH8386yogunZ-">
-					<span>
-						<img width="100%" src="https://us-east-1.linodeobjects.com/kinopio-uploads/c6rgUnlHCH8386yogunZ-/preview-image-c6rgUnlHCH8386yogunZ-.jpg" />
-						<br />
-						<span class="avi-name-wrapper">
-							<span class="kinopio-avi"></span>
-							<span class="card-name">droqen entrance</span>
-						</span>
-					</span>
-				</a>
-			</div>
-		</div>
+		Hello, I'm droqen.
 	</body>
 </html>
