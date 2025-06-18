@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>$</title>
+		<style>
+			html,body{margin:0;padding:0;}
+			body {
+				text-align: center;
+			}
+			img.blurry {
+				width: 35vmin;
+				filter: blur(0.15vmin);
+			}
+			div#intro, div.listing {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				align-items: center;
+				border-bottom: 1px solid #ddd;
+			}
+			div.listing {
+				padding-top: 20px;
+			}
+			div p, div.listing div.words {
+				font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+				font-size: 20px;
+			}
+			div p {
+				max-width: 75vmin;
+			}
+			div.listing img, div.listing div.words, div.listing select {
+				margin: 0 20px 20px 0;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="intro">
+			<div class="big_image_with_caption" style="width:100%;">
+				<img src="Potion-Shop.png" style="width:100%;filter: blur(1px); pointer-events: none;"/>
+				<div class="caption" style="width: 100%; font-size:75%; line-height: 75%; font-family: monospace; text-align: right;">
+					i got this image from <a href="https://www.zeldadungeon.net/wiki/Potion_Shop_(The_Legend_of_Zelda)">website</a> and it is an image from The Legend of Zelda</div>
+			</div>
+			<br/><br/>
+			<p>
+				hello i didn't want to make an online store front so these dropdowns don't connect to anything, please contact me if you would like to buy an online item
+				<br/><br/>
+				love, droqen
+			</p>
+		</div>
+		<div id="alllistings">
+			<div class="listing">
+				<img src="listing-tarot(box).jpg" />
+				<img src="listing-tarot(cards).jpg" />
+				<div class="words">droqen's tarot<br/>incl one secret<br/>no guide book</div>
+				<select name="tarot">
+					<option value=0>No</option>
+					<option value=40>Yes ($40 CAD)</option>
+				</select>
+			</div>
+			<div class="listing">
+				<img src="listing-teog-big.png" height="200" style="filter:blur(1px)" />
+				<div class="words">The End of Gameplay
+					<br/>- <a href="https://www.youtube.com/watch?v=g_kQLrBSrt0">watch trailer here</a>
+					<br/><br/>it is pretty good
+				</div>
+				<select name="tarot">
+					<option value=0>No</option>
+					<option value=25>itch.io key ($25 CAD)</option>
+					<option value=25>Steam Key ($25 CAD)</option>
+				</select>
+			</div>
+			<div class="listing">
+				<img src="listing-q1.jpg" height="200" />
+				<img src="listing-q1(open).jpg" height="200" />
+				<div class="words">Q1: VOID
+					<br/>a fictional videogame manual<br/>by me & <a href="https://okaykellyk.com/">kelly k</a>
+				</div>
+				<select name="tarot">
+					<option value=0>No</option>
+					<option value=10>Yes ($10 CAD)</option>
+				</select>
+			</div>
+		</div>
+		<div>
+			<p>
+				also im gonna make you pay shipping and stuff<br/>($13ish for canada/us)</br>unless you can pickup in toronto ofc
+			</p>
+			<pre>
+				stuff@droqen.com
+				droqen on discord
+				@droqen2 on instagram
+				@droqen.bsky.social
+			</pre>
+		</div>
+	</body>
+</html>
