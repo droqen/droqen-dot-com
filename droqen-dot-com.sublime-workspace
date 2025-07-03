@@ -1,0 +1,210 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"s",
+				"sans-serif"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/droqen/droqen-dot-com"
+	],
+	"file_history":
+	[
+		"/Users/droqen/dataatask/instructions.txt",
+		"/Users/droqen/dataatask/jul2-308pm/diff",
+		"/Users/droqen/dataatask/jul2-308pm/aft-pass-5-new",
+		"/Users/droqen/dataatask/jul2-308pm/aft-pass-5",
+		"/Users/droqen/dataatask/jul2-308pm/aft-pass-4-new",
+		"/Users/droqen/dataatask/jul2-308pm/aft-pass-4",
+		"/Users/droqen/dataatask/untitled",
+		"/Users/droqen/dataatask/jul2-308pm/overview",
+		"/Users/droqen/dataa jul 1 1010pm/report.txt",
+		"/Users/droqen/dataa jul 1 1010pm/final.diff",
+		"/Users/droqen/dataa jul 1 1010pm/rubric.txt",
+		"/Users/droqen/dataa jul 1 1010pm/timer.txt",
+		"/Users/droqen/dataa-jun26/advice",
+		"/Users/droqen/dataa-jun26/start",
+		"/Users/droqen/dataa-jun26/apikey.py",
+		"/Users/droqen/dataa-jun26/apikey",
+		"/Users/droqen/dataa-jun26/code.py",
+		"/Users/droqen/dataa-jun26/apipyimp.py",
+		"/Users/droqen/droqen-dot-com/.gitignore",
+		"/Users/droqen/droqen-dot-com/shift-4/imessage.css",
+		"/Users/droqen/droqen-dot-com/shift-4/test.html",
+		"/Users/droqen/droqen-dot-com/shift-4/index.html",
+		"/Users/droqen/tile_shit_test/test_tileset.tres",
+		"/Users/droqen/tile_shit_test/sce e.tscn",
+		"/Users/droqen/Droqtober/11thru20/13-graffiti/grafboard.tscn"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "",
+	"project": "droqen-dot-com.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 501.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/dataatask/dataatask.sublime-project"
+			],
+			[
+				"\t",
+				"~/dataatask/dataatask.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 274.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
