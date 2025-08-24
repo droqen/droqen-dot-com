@@ -11,6 +11,25 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "\n    <!-- Open Graph / Facebook Meta Tags -->\n    <meta property=\"og:title\" content=\"Your Engaging Title for Social Media\">\n    <meta property=\"og:description\" content=\"A concise description of your page's content.\">\n    <meta property=\"og:image\" content=\"https://www.example.com/path/to/your/image.jpg\">\n    <meta property=\"og:image:width\" content=\"1200\"> <!-- Optional: specify image width -->\n    <meta property=\"og:image:height\" content=\"630\"> <!-- Optional: specify image height -->\n    <meta property=\"og:url\" content=\"https://www.example.com/your-page-url\">\n    <meta property=\"og:type\" content=\"website\">\n\n    <!-- Twitter Card Meta Tags (for Twitter-specific display) -->\n    <meta name=\"twitter:card\" content=\"summary_large_image\">\n    <meta name=\"twitter:title\" content=\"Your Engaging Title for Social Media\">\n    <meta name=\"twitter:description\" content=\"A concise description of your page's content.\">\n    <meta name=\"twitter:image\" content=\"https://www.example.com/path/to/your/image.jpg\">",
+			"settings":
+			{
+				"buffer_size": 1003,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAA6wMAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -44,6 +63,7 @@
 	},
 	"expanded_folders":
 	[
+		"/Users/droqen/droqen-dot-com"
 	],
 	"file_history":
 	[
@@ -116,6 +136,38 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1003,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1003,
+								1003
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -188,7 +240,7 @@
 				"~/dataatask/dataatask.sublime-project"
 			]
 		],
-		"width": 381.0
+		"width": 382.0
 	},
 	"select_symbol":
 	{
