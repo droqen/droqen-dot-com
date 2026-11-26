@@ -12,8 +12,10 @@
 		<script type="text/javascript">
 			document.addEventListener("DOMContentLoaded", function(event) {
 				var _span = document.getElementById('email');
-				var _addyContent = document.createTextNode("hello@dro" + "qen.com");
-				_span.appendChild(_addyContent);
+				if (_span) {
+					var _addyContent = document.createTextNode("hello@dro" + "qen.com");
+					_span.appendChild(_addyContent);
+				}
 
 				// var _a = document.getElementById('email-a');
 				// _a.attr += "hello@dro";
@@ -50,7 +52,7 @@
 			a.hypo {
 				font-family: sans-serif;
 				/* border:1px solid #ffeeff; */
-				background-color: #ffffff;
+/*				background-color: #ffffff;*/
 				/*padding: 1px 5px 1px 5px;*/
 				padding: 10px 15px 10px 15px;
 				border-radius: 4px;
@@ -62,6 +64,9 @@
 			p {
 				font-family: sans-serif;
 				line-height: 1.4em;
+			}
+			.w {
+				font-family: Raleway;
 			}
 		</style>
 
@@ -100,7 +105,7 @@
 				75%	{ -webkit-transform: rotate(-1.5deg); transform: rotate(-1.5deg) }
 				to		{ -webkit-transform: rotate( 0deg); transform: rotate(0) }
 			}
-			img { filter:blur(1vw);  }
+/*			img { filter:blur(1vw);  }*/
 		</style>
 	</head>
 	<body>
@@ -113,20 +118,21 @@
 		<h1 style="position: absolute; top:10vh; left: 200px; font-size: 20px;">
 			droqen<br/>or,<br/>Alexander Martin
 			<br/>
-			<span style="font-size:50%;">???</span>
+			<span style="font-size:50%; background:white;">* has made hundreds of games! / but for what reason? / nobody knows.</span>
 		</h1>
 		<div style="position: absolute; top:50vh; left:50vw; right:5vw; max-width: 450px; z-index: 1; background-color: #fff;">
-			<p><a class="hypo" href="https://store.steampowered.com/app/3120040/The_End_of_Gameplay/">the end of gameplay (steam)</a></p>
-			<p><a class="hypo" href="https://droqen.itch.io/the-end-of-gameplay">the end of gameplay (itch.io)</a></p>
-			<p><a class="hypo" href="https://www.droqen.com/tarot/">my pixel art tarot deck</a></p>
-			<p><a class="hypo" href="https://php.droqen.com/sendy/subscription?f=8sN3BYZEXdP9tCB8ciNUbY1ByaqrGd2NMpm4ahlQSuCnjAxKXmwzC49cYTTPSEW5">droqen.com mailing list</a></p>
-			<p>
-				<strong>everything <span style="font-family:Raleway">w</span>e do makes sense.</strong><br/>contact email : <span id="email"></span>
-			</p>
-			<!-- <p><a class="hypo" href="https://newforum.droqen.com/index.php?board=49.0">thought world & other posts</a></p> -->
-			<!-- <p><a class="hypo" href="https://droqenstudies.itch.io">various game 'studies' on itch.io</a></p> -->
-			<!-- <p><a class="hypo" href="https://bsky.app/profile/droqen.bsky.social">bluesky</a></p> -->
-			<!-- <p>love, droqen</p> -->
+			<div class="faux-card">
+				<a href="https://kinopio.club/droqen-entrance-c6rgUnlHCH8386yogunZ-">
+					<span>
+						<img width="100%" src="https://us-east-1.linodeobjects.com/kinopio-uploads/c6rgUnlHCH8386yogunZ-/preview-image-c6rgUnlHCH8386yogunZ-.jpg" />
+						<br />
+						<span class="avi-name-wrapper">
+							<span class="kinopio-avi"></span>
+							<span class="card-name">droqen entrance</span>
+						</span>
+					</span>
+				</a>
+			</div>
 		</div>
 	</body>
 </html>
